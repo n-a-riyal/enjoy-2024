@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* 
+  font-family: "Merriweather", serif;
+    font-family: "Inter", sans-serif;
+ */
+*{
+    margin: 0;
+    padding:0;
+}
+/* shared  style*/
+section{
+    margin-bottom: 120px;
+}
+/* shared  style end*/
+/* main style  */
+main{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* banner start */
+#banner{
+ margin-top: 50px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Banner\ Image.png);
+
+    
+}
+.banner-container{
+padding: 177px 344px;
+text-align: center;
+
+}
+.banner-subtitle{
+   
+font-size: 32px;
+font-weight: 400;
+color: rgb(255, 255, 255);
+
+font-family: "Merriweather", serif;
+}
+.section-title{
+  font-weight: 900px;
+  font-size: 72px;
+ 
+  font-family: "Merriweather", serif;
+  color: rgb(255, 255, 255);
+}
+.offer-container{
+   margin: 0 auto;
+   max-width: 802px;
+   text-align: center;
+
+}
+.offer-subtitile{
+    color:#070211;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin: 10px 0 45px 0;
+}
+.offer-description{
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    color: #FF0000;
+}
+.offer-tite{
+    margin-bottom: 62px;
+    font-weight: 700;
+    font-size: 88px;
+   font-family: "Inter", sans-serif;
+   color: #FF0000;
+}
+.enjoy-title{
+    font-weight: 900;
+    font-size: 64px;
+    font-family: "Merriweather", serif;
+  color: rgb(255, 255, 255);
+  margin-bottom: 24px;
+}
+#enjoys{
+    border-radius: 16px;
+
+background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url(../images/Vectorrr.png);
+
+}
+.enjoy-column-1{
+    max-width: 697px;
+}
+.enjoy-column-2{
+    max-width: 350px;
+}
+.enjoys-container{ 
+    display: flex;
+    align-items: center;
+   min-height: 600px;
+   padding: 0 130px 0 130px;
+   gap: 10px;
+}
+.eniioy-description{
+   color: rgba(255, 255, 255, 0.8);
+   font-size: 18px;
+   font-weight:400 ;
+   margin-bottom: 48px;
+   font-family: "Inter", sans-serif;
+}
+.enjoy-button{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+    border: none;
+    text-transform: uppercase;
+    background-color: black;
+
+}
